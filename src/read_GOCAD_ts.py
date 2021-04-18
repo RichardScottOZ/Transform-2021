@@ -1,5 +1,6 @@
 def read_GOCAD_ts_test(tsfile):
     import re
+    import numpy as np
  
     fid = open(tsfile, 'r')
     vrtx = []
